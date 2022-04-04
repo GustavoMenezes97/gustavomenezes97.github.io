@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+            background-color: #87986A
+        }
 
+        h1 {
+            font-family: roboto, sans-serif;
+            font-weight: 500;
+            text-align:center;
+            text
+        }
+
+        #foto {
+            border-radius: 50%;
+            width: 340px;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        #perfil, #img-redes,h3, h4, p {
+            text-align: center;
+        }
+
+        #sobre {
+            font-family: roboto, sans-serif;
+        }
+
+        .habilidades {
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .redes-redondo {
+            border-radius: 50%;
+        }
+
+        #img-redes a {
+            text-decoration: none;
+        }
+        
+        strong {
+            font-family: montserrat, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
 
 <h2> Índice </h2>
 <ul>
@@ -19,11 +69,13 @@
 
 <h1 id="nome">Gustavo Augusto Rezende de Menezes</h1>
 
-<img src="./Foto_atual.jpg" alt="Foto do Gustavo com o mar ao fundo" width="523px" 
+<div id="perfil">
+<img src="./imagens/Foto_atual.jpg" alt="Foto do Gustavo com o mar ao fundo" width="523px" 
 id="foto">
+</div>
 
 <p id="sobre"> 
-    <b> Sobre: </b> <em> Tenho 24 anos, nasci e moro no Rio de Janeiro, RJ desde sempre.<br>
+    <b> Sobre: </b> <em> Tenho 24 anos, sou brasileiro, nasci e moro no <strong>Rio de Janeiro, RJ</strong> desde sempre.<br>
     Trabalhava na área administrativa desde os 17 anos, mas hoje estou <br>
     em busca de mudança, e decidi entrar na Trybe para isso! <br> <br>
     Tenho dois cachorros, um chamado <strong> Alecrim </strong> e outra chamada
@@ -31,26 +83,35 @@ id="foto">
     gosto de jogos (preferência por FPS online), desenhos, animes e séries. </em>
 </p>
 <br>
-<p id="habilidades">
-    <b> Habilidades:</b> <em> Empatia, <strong>inteligência emocional</strong> e
-     capacidade de escuta.  </em>
-</p>
-<br>
-<h3 id="redes">Redes</h3>
 
+<div class="habilidades">
+<h4>Habilidades</h4>
+<ul>
+    <em>
+        <li class="li-1"> HTML básico</li>
+        <li class="li-2"> CSS básico</li>
+        <li class="li-3"> Empatia </li> 
+        <li class="li-4"><strong> inteligência emocional </strong></li>
+        <li class="li-5"> capacidade de escuta. </li>
+    </em>
+</ul>
+</div>
+<br>
+<h4 id="redes">Redes</h4>
+
+<div id="img-redes">
 <a href="https://www.linkedin.com/in/gustavo-menezes-a083b8152/" target="_blank" > 
-    <img src="./Linkedin.png" alt="logo do linkedin" width="50px"> </a>
+    <img class="redes-redondo" src="./imagens/Linkedin.png" alt="logo do linkedin" width="50px"> </a>
 
 <a href="https://github.com/GustavoMenezes97" target="_blank" > 
-    <img src="./github.jpg" alt="logo do Github" width="50px"> </a>
+    <img class="redes-redondo" src="./imagens/github.jpg" alt="logo do Github" width="50px"> </a>
 
 <a href="https://www.instagram.com/opsgusta/" target="_blank" > 
-    <img src="./Instagram.png" alt="logo do Instagram" width="50px"> </a>
+    <img class="redes-redondo" src="./imagens/Instagram.png" alt="logo do Instagram" width="50px"> </a>
 
 <a href="https://twitter.com/opsgusta" target="_blank" > 
-    <img src="./twitter.png" alt="logo do Twitter" width="50px"> </a>
+    <img class="redes-redondo" src="./imagens/twitter.png" alt="logo do Twitter" width="50px"> </a>
+</div>   
 
-<body>
-    
 </body>
 </html>
