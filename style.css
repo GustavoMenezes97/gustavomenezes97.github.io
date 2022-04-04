@@ -40,3 +40,15 @@ h1 {
 strong {
     font-family: montserrat, sans-serif;
 }
+
+div {
+    border: solid red;
+}
+
+#perfil {
+    float: left;
+}
+
+.sobre {
+    height: 324px;
+}
