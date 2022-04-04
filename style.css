@@ -47,8 +47,10 @@ div {
 
 #perfil {
     float: left;
+    padding: 10px;
+    background-color: black;
 }
 
 .sobre {
-    height: 324px;
+    height: 344px;
 }
