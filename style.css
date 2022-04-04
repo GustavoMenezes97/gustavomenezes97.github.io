@@ -1,5 +1,7 @@
 body {
-    background-color: #87986A
+    background-color: #87986A;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 h1 {
@@ -21,6 +23,9 @@ h1 {
 
 #sobre {
     font-family: roboto, sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 27%;
 }
 
 .habilidades {
@@ -41,16 +46,18 @@ strong {
     font-family: montserrat, sans-serif;
 }
 
-div {
-    border: solid red;
-}
-
 #perfil {
     float: left;
     padding: 10px;
     background-color: black;
+    border-radius: 35%;
 }
 
 .sobre {
     height: 344px;
+    position: relative;
+}
+
+div ul li:nth-child(odd) {
+    background-color: gray;
 }
